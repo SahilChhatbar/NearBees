@@ -1,0 +1,114 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: gold;
+  padding: 10px 20px; /* Adjust padding for header height */
+  z-index: 2;
+  position: relative;
+  border-radius: 10px;
+}
+
+.App-header .logo {
+  height: 100px; /* Adjusted logo height */
+  width: 100px;  /* Adjusted logo width */
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem; /* Adjusted font size */
+}
+
+.App-header p {
+  font-size: 1rem; /* Adjusted font size */
+  color: #333;
+}
+
+.container {
+  max-width: 1000px; /* Set max-width to fit layout */
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Increase width of overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: -10%; /* Adjust left position to extend beyond container */
+  width: 120%; /* Increase width to extend beyond container */
+  height: 101%;
+  background: gold; /* Overlay background color */
+  z-index: 1;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 2;
+}
+
+.page {
+  background: olive; /* Slightly darker gray for the page */
+  color: whitesmoke;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  height: 70%; /* Full height of the column */
+}
+
+.carousel-container {
+  margin-top: 20px;
+  position: relative;
+  border-radius: 10px; /* Apply border-radius to the container */
+  overflow: hidden; /* Ensure child elements respect the border-radius */
+}
+
+.carousel .carousel-slider {
+  border-radius: 10px; /* Apply border-radius to the carousel */
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+}
+
+.upload-container {
+  margin-top: 15px;
+}
+
+.upload-container .btn-warning {
+  background-color: black; /* Button background color */
+  border: none;
+  color: whitesmoke; /* Button text color */
+}
+
+.upload-container .btn-warning:hover {
+  background-color: whitesmoke; /* Button hover background color */
+  color: black; /* Button hover text color */
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+  color: #000; /* Adjust margin-top for spacing */
+}
+.btn-primary{
+  color: white;
+  background-color: #000;
+  border-color: #000;
+}
+.btn-primary:hover{
+  background-color: whitesmoke; /* Button hover background color */
+  color: black;
+  border-color: whitesmoke;
+}
+.col-md-12{
+  height: 900px;
+}
